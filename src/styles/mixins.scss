@@ -1,0 +1,56 @@
+@mixin title($fontSize) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: $fontSize;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+}
+@mixin biggesTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  color: #000000;
+}
+@mixin grayP {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9d9d9d;
+}
+@mixin button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #a5d364;
+  border-radius: 110px;
+  padding: 15px 60px;
+  cursor: pointer;
+}
+@mixin smallText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+@mixin smallP {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}

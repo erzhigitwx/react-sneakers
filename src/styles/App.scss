@@ -1,0 +1,89 @@
+@import "./mixins";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 85px;
+  background-color: #e7f6ff;
+  text-decoration: none;
+  list-style: none;
+  min-width: 1450px;
+}
+
+.App {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.navbar {
+  padding: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .navbar-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    img {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+    }
+    .navbar-home__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 0;
+      .navbar-home__text-title {
+        @include title(20px);
+      }
+      .navbar-home__text-des {
+        @include grayP;
+      }
+    }
+  }
+  .navbar-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    .navbar-basket {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+      .navbar-basket__image {
+        height: 18px;
+        width: 18px;
+        color: #9b9b9b;
+      }
+      .navbar-basket__price {
+        @include grayP;
+        color: #5c5c5c;
+        font-weight: 600;
+      }
+    }
+    .navbar-favorite {
+      .navbar-favorite__image {
+        height: 18px;
+        width: 18px;
+        color: #5c5c5c;
+      }
+    }
+    .navbar-profile {
+      .navbar-profile__image {
+        height: 18px;
+        width: 18px;
+        color: #5c5c5c;
+      }
+    }
+  }
+}
+.line {
+  border: 1px solid #eaeaea;
+}

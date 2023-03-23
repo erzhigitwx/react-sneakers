@@ -1,0 +1,252 @@
+@import "./mixins.scss";
+
+.basket {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 30vw;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  padding: 30px;
+  overflow-y: scroll;
+  .order {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 120px;
+      width: 83px;
+    }
+    h4 {
+      margin-top: 30px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+      color: #87c20a;
+    }
+    p {
+      margin-top: 10px;
+      width: 80%;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #000000;
+      opacity: 0.4;
+    }
+    li {
+      @include button;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 40px;
+      gap: 15px;
+      span {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+  .basket-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+  .basket-content__wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .basket-content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .basket-buy {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    .basket-buy__first {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      p {
+        width: 15%;
+        @include smallP;
+      }
+      .dotted {
+        width: 45%;
+        border: 1px dashed black;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+      }
+      .basket-buy__first-acc {
+        width: 30%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+      }
+    }
+    .basket-buy__second {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      p {
+        width: 25%;
+        @include smallP;
+      }
+      .dotted {
+        width: 40%;
+        border: 1px dashed black;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+      }
+      .basket-buy__second-acc {
+        width: 25%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+      }
+    }
+    .basket-buy__button-container {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      li {
+        @include button;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 30px;
+        border-radius: 18px;
+        width: 325px;
+        height: 55px;
+        padding: 30px;
+        span {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+  }
+  .basket-card {
+    width: 100%;
+    height: 120px;
+    background: #ffffff;
+    border: 1px solid #f3f3f3;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      height: 70px;
+      width: 70px;
+    }
+    .basket-card__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 8px;
+      margin-left: 20px;
+      margin-right: 12px;
+      p {
+        @include grayP;
+        color: #000000;
+      }
+      h1 {
+        @include grayP;
+        color: #000000;
+        font-weight: 700;
+      }
+    }
+    .basket-card__remove {
+      width: 45px;
+      height: 45px;
+      background: #ffffff;
+      border-radius: 8px;
+      color: #dbdbdb;
+      transition: color 0.3s ease-in-out;
+      &:hover {
+        color: #000000;
+      }
+    }
+  }
+  .basket-empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 60px);
+    text-align: center;
+    img {
+      width: 120px;
+      height: 120px;
+    }
+    h3 {
+      margin-top: 20px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+      color: #000000;
+    }
+    p {
+      @include grayP;
+      font-size: 16px;
+      line-height: 24px;
+      width: 70%;
+      margin-top: 10px;
+    }
+    li {
+      @include button;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 40px;
+      gap: 15px;
+      span {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+}
+.blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 30vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
