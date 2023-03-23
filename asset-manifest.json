@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-sneakers/static/css/main.baa3eba9.css",
+    "main.js": "/react-sneakers/static/js/main.c89f9e30.js",
+    "static/media/frog.jpg": "/react-sneakers/static/media/frog.d14dd936ba0683af0dd4.jpg",
+    "static/media/sneak9.jpg": "/react-sneakers/static/media/sneak9.0f85f13d6203939a1564.jpg",
+    "static/media/sneak2.jpg": "/react-sneakers/static/media/sneak2.f452253d27ca389b9e4d.jpg",
+    "static/media/sneak5.jpg": "/react-sneakers/static/media/sneak5.d2e91e783c6966a56976.jpg",
+    "static/media/sneak8.jpg": "/react-sneakers/static/media/sneak8.d3037e7d1857d0391ca1.jpg",
+    "static/media/sneak4.jpg": "/react-sneakers/static/media/sneak4.d921a1acf7f30adc3bda.jpg",
+    "static/media/sneak6.jpg": "/react-sneakers/static/media/sneak6.ab1729f120dbab9cb1e4.jpg",
+    "static/media/sneak12.jpg": "/react-sneakers/static/media/sneak12.38f3cf0e8421f5304ba7.jpg",
+    "static/media/sneak7.jpg": "/react-sneakers/static/media/sneak7.3489f9218a17cec48d40.jpg",
+    "static/media/sneak1.jpg": "/react-sneakers/static/media/sneak1.2444684cf38d60a5c7cf.jpg",
+    "static/media/sneak3.jpg": "/react-sneakers/static/media/sneak3.b343f88d6e8f3b1a95db.jpg",
+    "static/media/sneak11.png": "/react-sneakers/static/media/sneak11.19a9c583ffd6e7b4cbd0.png",
+    "static/media/order.png": "/react-sneakers/static/media/order.28c53daaf8eec94f5429.png",
+    "static/media/sneak10.png": "/react-sneakers/static/media/sneak10.342dfe2c1e230420f0b9.png",
+    "index.html": "/react-sneakers/index.html",
+    "static/media/search.svg": "/react-sneakers/static/media/search.48c52bf5d459537e27c0.svg",
+    "main.baa3eba9.css.map": "/react-sneakers/static/css/main.baa3eba9.css.map",
+    "main.c89f9e30.js.map": "/react-sneakers/static/js/main.c89f9e30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baa3eba9.css",
+    "static/js/main.c89f9e30.js"
+  ]
+}
