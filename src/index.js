@@ -8,7 +8,7 @@ import { store } from "./store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename={"/react-sneakers"}>
     <ErrorBoundary>
       <Provider store={store}>
         <App />
